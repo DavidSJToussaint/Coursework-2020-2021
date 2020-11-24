@@ -1,0 +1,15 @@
+This shows how to make a 3rd person character movement script.
+Start off by creating a 3D Project as this tutorial will be using 3D dimensions and refernces.
+
+1. Create a Scene
+Start by creaing a new scene called camera movement.
+You will need to set a few objects in the level to show how the player moves.
+Make sure you have cinemachine installed(you can do this by going to package manager and finding cinemachine)
+Next create a shape for the player character(anything will do).
+Make sure you child another 3D object to the third person character and use it to show where the front of the character is.
+Create an empty object and child both objects from the previous steps to it.
+Rename the empty object to Thirdperson character and the shape for the player character to GFX.
+Go to cinemachine and create a freelook camera and rename it to Third Person Camera
+
+
+
