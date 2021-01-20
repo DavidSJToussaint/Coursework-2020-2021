@@ -6,20 +6,20 @@ Step 2:
 
 Open the script component and add the variables:
 
-  public float speed;
-  public float waitTime;
-  public float startWaitTime;
-  public Transform[] patrolPoint; 
+    public float speed;
+    public float waitTime;
+    public float startWaitTime;
+    public Transform[] patrolPoint; 
       // this array will be how you set patrol points in your unity project without editting the script with every new point
-  public int index; 
+    public int index; 
       //this is the numerical variable regarding how many points are in your array
 Step 3:
 
 In void Start(), write out:
 
-  waitTime = startWaitTime; 
+    waitTime = startWaitTime; 
       //this makes the two aforementioned variables equal the same thing, allowing for a sense of regularity in the game
-  index = Random.Range(0, patrolPoint.Length); 
+    index = Random.Range(0, patrolPoint.Length); 
       // this makes the int variable **Index** randomly select any of the points in the **patrolPoints** array
 Step 4:
 
