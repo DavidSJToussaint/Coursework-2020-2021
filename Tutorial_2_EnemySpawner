@@ -1,0 +1,16 @@
+Step 1:
+
+Create a 3D object inside unity and name it enemy.
+
+Step 2:
+
+Give the enemy object a rigidbody.
+
+Step 3:
+
+Create a prefab folder and drag the object from the hierachy into it to create a prefab and delete it from the hierachy.
+
+Step 4:
+
+Create a empty gameobject in the hierachy and rename it "Enemy Spawner"
+
