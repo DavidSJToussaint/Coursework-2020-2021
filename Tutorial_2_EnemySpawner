@@ -30,6 +30,10 @@ In void update enter this:
     //This will make the enemies spawn randomly when the "t" key is pressed. 
     //If you dwon want to use GetKeyDown, you can use GetMouseButtonDown instead
     
+Step 7:
+
+Drag the enemy prefabs into the spawners inspector where it says Spawn Points
+    
 
 
 
