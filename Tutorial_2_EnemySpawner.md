@@ -14,8 +14,8 @@ Step 5:
 
 Give the spawner a new script component and name it Spawner. Open the script and delete the void start. Once deleted put this line in:
 
-  public Transform[] spawnPoints; 
-  publicGameObject[] enemyPrefabs;
+    public Transform[] spawnPoints; 
+    publicGameObject[] enemyPrefabs;
   
 Step 6:
 
